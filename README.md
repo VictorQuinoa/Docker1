@@ -4,6 +4,9 @@
 sudo docker pul alpine
 
 ##  Crea un contenedor sin ponerle nombre. ¿está arrancado? Obtén el nombre
+sudo docker run alpine
+
+Al no ponerle nombre se genera el nombre "sweet kalam". El contenedor aparece con status EXIT
 
 ## Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
 
