@@ -41,5 +41,7 @@ El contenedor sigue ejecutandose.
 
 ## ¿Cuanta memoria en el disco duro ocupaste?
 
+El dam_alp2 ocupa un 0,1% de memoria, mientras que el 1 desde el que hice los dos puentes ocupa un 0,2%. Esto visto con el comando:
 
+docker stats
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
