@@ -10,7 +10,7 @@ Al no ponerle nombre se genera el nombre "sweet kalam". El contenedor aparece co
 
 ## Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
 
-docker run --dam_alp1 -it alpine
+docker run --name dam_alp1 -it alpine
 
 Para acceder:
 
@@ -27,12 +27,19 @@ Para hacer el ping:
  ping -c google.com
 
 
-
-
 ## Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
+
+Creamos el contenedor con el mismo comando que el anterior y para hacer ping con el ponemos el comando:
+
+ ping -c 2 172.17.0.3
+
+Siendo la IP la del dam_alp2, buscada con el mismo comando que en el apartado anteriror.
 
 ## Sal del terminal, ¿que ocurrió con el contenedor?
 
+El contenedor sigue ejecutandose.
+
 ## ¿Cuanta memoria en el disco duro ocupaste?
+
 
 ## ¿Cuanta RAM ocupan los contenedores? ¿Hay algún comando docker para saber esto?.
