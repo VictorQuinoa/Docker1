@@ -10,6 +10,12 @@ Al no ponerle nombre se genera el nombre "sweet kalam". El contenedor aparece co
 
 ## Crea un contenedor con el nombre 'dam_alp1'. ¿Como puedes acceder a él?
 
+docker run --dam_alp1 -it alpine
+
+Para acceder:
+
+sudo docker exec -it dam_alp1 sh
+
 ## Comprueba que ip tiene y si puedes hacer un ping a google.com
 
 ## Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
