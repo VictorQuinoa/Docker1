@@ -18,6 +18,17 @@ sudo docker exec -it dam_alp1 sh
 
 ## Comprueba que ip tiene y si puedes hacer un ping a google.com
 
+Para ver la IP:
+sudo docker exec -it dam_alp1 sh
+
+Para hacer el ping:
+-Entramos al contenedro con sudo docker exec... sh y una vez dentro:
+
+ ping -c google.com
+
+
+
+
 ## Crea un contenedor con el nombre 'dam_alp2'. ¿Puedes hacer ping entre los contenedores?
 
 ## Sal del terminal, ¿que ocurrió con el contenedor?
