@@ -21,7 +21,7 @@ Para acceder:
 ## Comprueba que ip tiene y si puedes hacer un ping a google.com
 
 Para ver la IP:
-**sudo docker exec -it dam_alp1 sh**
+**sudo docker inspect dam_alp1|grep IPA**
 
 Para hacer el ping:
 -Entramos al contenedor con **sudo docker exec... sh** y una vez dentro:
